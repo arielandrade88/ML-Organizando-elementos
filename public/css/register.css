@@ -57,7 +57,7 @@ input#file {
 }
 
 .btn {
-  background-color: var(--color-azul);
+  background-color: var(--color-celeste);
   border: none;
   border-radius: 10px;
   color: white;
@@ -67,4 +67,8 @@ input#file {
   margin: 0 auto;
   padding: 10px;
   text-align: center;
+}
+
+.btn-submit:hover {
+  background-color: #0022aa;
 }

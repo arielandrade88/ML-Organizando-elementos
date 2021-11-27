@@ -1,3 +1,7 @@
+footer {
+  background-color: white;
+}
+
 footer div {
   margin: 35px;
   text-align: center;
@@ -7,4 +11,21 @@ footer div i {
   color: var(--color-celeste);
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  footer div {
+    width: 25%;
+  }
+
+  footer div i:hover {
+    color: var(--color-azul);
+  }
 }
