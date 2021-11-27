@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mercado Liebre - Registro</title>
+</head>
+
+<body class="body__form">
+
+    <header>
+        <div class="logo"><img src="images/logo-mercado-liebre.svg" alt="logo"></div>
+        <div class="search__bar__container">
+            <div class="search-bar">
+                <input class="search__input" type="search" placeholder="Buscar productos, marcas">
+            </div>
+            <button class="btn__search">
+                <i class="fas fa-search"></i>
+            </button>
+
+        </div>
+
+        <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        <nav>
+            <ul id="top-list">
+                <li><a href="ofertas">Ofertas</a></li>
+                <li><a href="tiendas-oficiales">Tiendas Oficiales</a></li>
+                <li><a href="vender">Vender</a></li>
+                <li><a href="ayuda">Ayuda</a></li>
+            </ul>
+            <ul id="bottom-list">
+                <li><a href="crea-tu-cuenta">Creá tu cuenta<i class="far fa-address-card "></i></a></li>
+                <li><a href="ingresa">Ingresá<i class="fas fa-sign-in-alt "></i></a></li>
+                <li><a href="mis-compras">Mis Compras<i class="fas fa-shopping-basket "></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <div class="form__container">
+        <form action="" method="">
+            <div class="form">
+                <h2 class="register__title">Registro</h2>
+                <div class="input-container">
+                    <input class="input-style" type="text" name="name" placeholder="Nombre y apellido">
+                    <span class="error-message">Debe ingresar su nombre</span>
+                </div>
+                <div class="input-container">
+                    <input class="input-style" type="text" name="user-name" placeholder="Nombre de usuari@">
+                    <span class="error-message">Debe ingresar un nombre de usuari@</span>
+                </div>
+                <h4>fecha de nacimiento</h4>
+                <div class="input-container">
+                    <label style="width: 100%;" for="date" class="">
+                        <input class="input-style" type="date" id="calendario" name="calendario" />
+                    </label>
+                    <span class="error-message">Debe ingresar su fecha de nacimiento</span>
+                </div>
+                <div class="input-container">
+                    <input class="input-style" type="text" name="address" placeholder="Domicilio">
+                    <span class="error-message">Debe ingresar su domicilio</span>
+                </div>
+
+                <h4>Perfil de usuari@</h4>
+                <p>
+                    <label for="buyer">
+                        <input type="radio" name=hobbies value="comprador">
+                        comprador/a
+                    </label>
+                </p>
+                <p>
+                    <label for="seller">
+                        <input type="radio" name=hobbies value="vendedor">
+                        vendedor/a
+                    </label>
+                </p>
+
+                <h4>categorias de interés</h4>
+                <p>
+                    <label for="read-question">
+                        <input type="checkbox" name="categories" id="Electro" value="Electro">
+                        Electro
+                    </label>
+                </p>
+                <p>
+                    <label for="read-question">
+                        <input type="checkbox" name="categories" id="Moda" value="Moda">
+                        Moda
+                    </label>
+                </p>
+                <p>
+                    <label for="read-question">
+                        <input type="checkbox" name="categories" id="Hogar" value="Hogar">
+                        Hogar
+                    </label>
+                </p>
+                <p>
+                    <label for="read-question">
+                        <input type="checkbox" name="categories" id="Juguetería" value="Juguetería">
+                        Juguetería
+                    </label>
+                </p>
+                <p>
+                    <label for="read-question">
+                        <input type="checkbox" name="categories" id="Vida sana" value="Vida sana">
+                        Vida sana
+                    </label>
+                </p>
+
+                <div class="input-container">
+                    <input type="file" name="file" id="file">
+                </div>
+
+                <div class="input-container">
+                    <input class="input-style" type="email" name="email" placeholder="Email">
+                    <span class="error-message">Debe ingresar su email</span>
+                </div>
+                <div class="input-container">
+                    <input class="input-style" type="password" name="pass" placeholder="Ingrese su contraseña">
+                    <span class="error-message">Debe ingresar su contraseña</span>
+                </div>
+                <div class="input-container">
+                    <input class="input-style" type="password" name="pass2" placeholder="Re-ingrese su contraseña">
+                    <span class="error-message">Debe re-ingresar su contraseña</span>
+                </div>
+                <div class="input-container">
+                    <label for="terms"> Acepto los <a href="">términos y condiciones</a> </label>
+                    <input type="checkbox" name="terms" id="recordar">
+                    <span class="error-message">Debe aceptar los términos y condiciones</span>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="btn btn-submit">Enviar</button>
+                </div>
+                <span class="error-message">Credenciales inválidas</span>
+                <button class="btn">borrar datos</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

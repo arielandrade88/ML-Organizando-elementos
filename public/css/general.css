@@ -1,0 +1,44 @@
+:root {
+  /* COLORES */
+  --color-amarillo: #eac926;
+  --color-azul: #03264c;
+  --color-celeste: #1259c3;
+  --color-grisClaro: #ebebeb;
+  --color-grisOscuro: #666;
+  --color-verde: #39b54a;
+
+  /* FUENTES */
+  --font-roboto: "Roboto", sans-serif;
+
+  /* TAMAÑOS TIPOGRAFICOS */
+  --discounts-descriptions: 16px;
+  --paragraf: 12px;
+  --prices: 18px;
+  --title: 24px;
+}
+
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--color-grisClaro);
+  font-family: var(--font-roboto);
+  font-size: var(--paragraf);
+}
+
+li {
+  list-style: none;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}

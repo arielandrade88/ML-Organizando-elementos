@@ -1,0 +1,10 @@
+footer div {
+  margin: 35px;
+  text-align: center;
+}
+
+footer div i {
+  color: var(--color-celeste);
+  font-size: 2em;
+  margin-bottom: 10px;
+}

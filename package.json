@@ -1,0 +1,19 @@
+{
+  "name": "ml-estilos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielandrade88/ML-Estilos.git"
+  },
+  "author": "Ariel Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arielandrade88/ML-Estilos/issues"
+  },
+  "homepage": "https://github.com/arielandrade88/ML-Estilos#readme"
+}

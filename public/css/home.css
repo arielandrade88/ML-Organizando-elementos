@@ -1,0 +1,91 @@
+/* Main */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+h3 {
+  color: var(--color-grisOscuro);
+  font-size: var(--title);
+  margin: 15px 0;
+  width: 100%;
+}
+
+/* CARD */
+
+.card {
+  background-color: white;
+  margin-bottom: 5px;
+
+}
+
+.card .card-content {
+  border-top: 1px solid var(--color-grisClaro);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  position: relative;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+main section article i{
+  background-color: #FFF;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  color:#39b54a;
+  display: block;
+  font-size: 16px;
+  height: 30px;
+  padding: 5px;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  width: 30px;
+}
+
+.precio {
+  font-size: var(--prices);
+  text-align: center;
+  width: 30%;
+}
+
+.descuento {
+  color: var(--color-verde);
+  font-size: var(--discounts-descriptions);
+  text-align: center;
+  width: 70%;
+}
+
+h6 {
+  color: var(--color-grisOscuro);
+  display: none;
+  font-size: var(--discounts-descriptions);
+}
+
+@media (min-width: 361px) {
+  .card {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 45%;
+  }
+
+  h6 {
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  .card{
+    width: 20%;
+  }
+}
